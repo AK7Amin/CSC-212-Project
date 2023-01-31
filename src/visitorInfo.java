@@ -1,18 +1,18 @@
 
 public class visitorInfo {
-	String fName, Iname, phone;
+	String fName, lName, phone;
 	int region, type;
-	ArrayStack <int> order;
+	ArrayStack <Integer> order;
 	
-	public visitorInfo(String fName, String iname, String phone, int region, int type, ArrayStack <int> order) {
+	public visitorInfo(String fName, String iname, String phone, int region, int type, ArrayStack <Integer> order) {
 		this.fName = fName;
-		Iname = iname;
+		lName = iname;
 		this.phone = phone;
 		this.region = region;
 		this.type = type;
 		this.order = order;
 	}
-	
+}
 	 
 	
-}
+
